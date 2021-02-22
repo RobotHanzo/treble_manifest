@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="los" fetch="https://github.com/LineageOS" />
+    <remote name="diust" fetch="https://github.com/DiUst" />
     <remove-project name="frameworks_opt_telephony" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-17.1" />
     <remove-project name="packages_services_Telephony" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="los" revision="lineage-17.1" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="diust" revision="ten" />
 </manifest>
