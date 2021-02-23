@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="havoc" fetch="https://github.com/Havoc-OS" />
-    <remote name="diust" fetch="https://github.com/DiUst" />
+    <remote name="rr" fetch="https://github.com/ResurrectionRemix" />
     <remove-project name="frameworks_opt_telephony" />
-    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" revision="ten" />
-    <remove-project name="packages_services_Telephony" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="diust" revision="ten" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="rr" revision="ten" />
 </manifest>
