@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="havoc" fetch="https://github.com/Havoc-OS-GSI/" />
-    <remove-project name="android_packages_services_Telephony" />
+    <remove-project name="packages_services_Telephony" />
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" revision="ten" />
 </manifest>
